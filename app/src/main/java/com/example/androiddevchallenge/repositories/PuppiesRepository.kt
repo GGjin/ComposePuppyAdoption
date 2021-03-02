@@ -1,3 +1,18 @@
+/*
+ * Copyright 2021 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     https://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 package com.example.androiddevchallenge.repositories
 
 import com.example.androiddevchallenge.R
@@ -90,7 +105,6 @@ object PuppiesRepository {
         "2007，11被人救助送至领养之家。",
         "2011年6月11日晚12点多，我们义工谢小姐在自家小区喂流浪猫时遇到了这只狗狗，当时狗狗还跟着一位小姐进了电梯，可几分钟后狗狗自己又坐着电梯下来了，谢小姐在楼下等了近一小时也没人来找。狗狗当时很干净，只是因小雨，脚和肚子较湿较脏。保安说从来没在该小区见过这只狗狗，可能是附近小区走失的。随后的一个多星期，我们在周围小区、马路、网上都发帖寻找狗狗主人，但一直没消息，所以决定给狗狗找寻新主人。",
     )
-
 
     fun getData(size: Int = 50): MutableList<Puppy> {
         val list = mutableListOf<Puppy>()
